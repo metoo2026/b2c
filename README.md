@@ -1,4 +1,4 @@
-# Multi-Account Backblaze B2 Cloudflare Worker
+# Multi-Account Backblaze B2 Cloudflare Worker (With CORS)
 
 A Cloudflare Worker for accessing multiple Backblaze B2 accounts through a single endpoint using the S3-compatible API. Account credentials are stored securely in Cloudflare Worker secrets, while cache settings can be configured using environment variables.
 
