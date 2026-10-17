@@ -72,18 +72,39 @@ Example structure (use placeholder credentials only in documentation):
 ```json
 {
   "account01": {
-    "endpoint": "https://s3.example-region.backblazeb2.com",
-    "region": "example-region",
-    "keyId": "YOUR_KEY_ID",
-    "applicationKey": "YOUR_APPLICATION_KEY",
+    "endpoint": "s3.us-west-004.backblazeb2.com",
+    "region": "us-west-004",
+    "keyId": "KEY_ID_1",
+    "applicationKey": "APP_KEY_1",
     "label": "Account 01"
   },
   "account02": {
-    "endpoint": "https://s3.example-region.backblazeb2.com",
-    "region": "example-region",
-    "keyId": "YOUR_SECOND_KEY_ID",
-    "applicationKey": "YOUR_SECOND_APPLICATION_KEY",
+    "endpoint": "s3.us-west-004.backblazeb2.com",
+    "region": "us-west-004",
+    "keyId": "KEY_ID_2",
+    "applicationKey": "APP_KEY_2",
     "label": "Account 02"
+  },
+  "account03": {
+    "endpoint": "s3.us-west-004.backblazeb2.com",
+    "region": "us-west-004",
+    "keyId": "KEY_ID_3",
+    "applicationKey": "APP_KEY_3",
+    "label": "Account 03"
+  },
+  "account04": {
+    "endpoint": "s3.us-west-004.backblazeb2.com",
+    "region": "us-west-004",
+    "keyId": "KEY_ID_4",
+    "applicationKey": "APP_KEY_4",
+    "label": "Account 04"
+  },
+  "account05": {
+    "endpoint": "s3.us-west-004.backblazeb2.com",
+    "region": "us-west-004",
+    "keyId": "KEY_ID_5",
+    "applicationKey": "APP_KEY_5",
+    "label": "Account 05"
   }
 }
 ```
